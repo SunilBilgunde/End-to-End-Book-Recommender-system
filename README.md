@@ -1,5 +1,5 @@
 # 📚 End-to-End Book Recommender System
-# An interactive, Streamlit-powered machine learning application that recommends books based on user selection. This end-to-end project demonstrates data preprocessing, collaborative filtering, model training, deployment with Docker, and cloud hosting on AWS EC2.
+An interactive, Streamlit-powered machine learning application that recommends books based on user selection. This end-to-end project demonstrates data preprocessing, collaborative filtering, model training, deployment with Docker, and cloud hosting on AWS EC2.
 
 
 ---
@@ -33,49 +33,41 @@ End-to-End-Book-Recommender-System/
 └── README.md                  # Project documentation
 
 
-🧰 Technologies Used
+##🧰 Technologies Used:
+
 Python 3.7
-
 Pandas, NumPy, Scikit-learn
-
 Streamlit for web interface
-
 Docker for containerization
-
 AWS EC2 for deployment
-
 Pickle for model serialization
 
 
-🧪 How It Works
-Data Preprocessing: Ratings and metadata are merged and cleaned.
+##🧪 How It Works:
 
-Model Training:
+1.Data Preprocessing: Ratings and metadata are merged and cleaned.
 
-Collaborative filtering using pivot tables and cosine similarity.
+2.Model Training:
+    Collaborative filtering using pivot tables and cosine similarity.
+    Popular books filtering for a hybrid effect.
 
-Popular books filtering for a hybrid effect.
+3.Serialization: Model artifacts saved as .pkl files.
 
-Serialization: Model artifacts saved as .pkl files.
+4.Streamlit App:
+    User selects a book from dropdown.
+    The system displays 5 recommended books.
 
-Streamlit App:
-
-User selects a book from dropdown.
-
-The system displays 5 recommended books.
-
-Deployment: Packaged with Docker and deployed on AWS EC2.
+5.Deployment: Packaged with Docker and deployed on AWS EC2.
 
 
-📸 UI Snapshot
+##📸 UI Snapshot
 The app features a dropdown to choose a book and displays five recommended titles along with relevant metadata.
+c:\Users\Dell\OneDrive\Pictures\Demo1.png
 
-![alt text](image.png)
-
-![alt text](Demo1.png)
+c:\Users\Dell\OneDrive\Pictures\Demo2.png
 
 
-⚙️ Running Locally
+##⚙️ Running Locally
 1. Clone the repo
     git clone https://github.com/SunilBilgunde/End-to-End-Book-Recommender-system.git
     cd End-to-End-Book-Recommender-system
@@ -92,7 +84,7 @@ The app features a dropdown to choose a book and displays five recommended title
 
 
 
-🐳 Running with Docker
+##🐳 Running with Docker
 
 1. Build Docker image
     docker build -t book-recommender:latest .
@@ -102,17 +94,6 @@ The app features a dropdown to choose a book and displays five recommended title
 
 
 
-🤝 Author
-Sunil Bilgunde
-
-
-📌 Future Enhancements
-Add content-based recommendations using book metadata
-
-Improve UI with cover images and star ratings
-
-Add user login and personalized history
-
-Deploy using CI/CD pipelines
-
+##🤝 Author
+##Sunil Bilgunde
 
