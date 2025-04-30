@@ -34,7 +34,7 @@ End-to-End-Book-Recommender-System/
 ```
 
 
-##🧰 Technologies Used:
+## 🧰 Technologies Used:
 
 Python 3.7
 Pandas, NumPy, Scikit-learn
@@ -44,7 +44,7 @@ AWS EC2 for deployment
 Pickle for model serialization
 
 
-##🧪 How It Works:
+## 🧪 How It Works:
 
 1.Data Preprocessing: Ratings and metadata are merged and cleaned.
 
@@ -61,14 +61,14 @@ Pickle for model serialization
 5.Deployment: Packaged with Docker and deployed on AWS EC2.
 
 
-##📸 UI Snapshot
+## 📸 UI Snapshot
 The app features a dropdown to choose a book and displays five recommended titles along with relevant metadata.
-c:\Users\Dell\OneDrive\Pictures\Demo1.png
 
-c:\Users\Dell\OneDrive\Pictures\Demo2.png
+![alt text](Demo1-1.png)
 
+![alt text](Demo2.png)
 
-##⚙️ Running Locally
+## ⚙️ Running Locally
 ```bash
 1. Clone the repo
     git clone https://github.com/SunilBilgunde/End-to-End-Book-Recommender-system.git
@@ -86,9 +86,9 @@ c:\Users\Dell\OneDrive\Pictures\Demo2.png
     streamlit run app.py
 ```
 
-```bash
-🐳 Running with Docker
 
+## 🐳 Running with Docker
+```bash
 1. Build Docker image
     docker build -t book-recommender:latest .
 
