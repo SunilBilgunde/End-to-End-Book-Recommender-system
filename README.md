@@ -4,6 +4,10 @@
 
 ![alt text](Demo1.png)
 
+Dataset has been used:
+https://www.kaggle.com/ra4u12/bookrecommendation
+
+
 ## Workflow
 
 - config.yaml
