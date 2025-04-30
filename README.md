@@ -31,6 +31,7 @@ End-to-End-Book-Recommender-System/
 ├── Dockerfile                 # Docker configuration for containerization
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
+```
 
 
 ##🧰 Technologies Used:
@@ -68,9 +69,11 @@ c:\Users\Dell\OneDrive\Pictures\Demo2.png
 
 
 ##⚙️ Running Locally
+```bash
 1. Clone the repo
     git clone https://github.com/SunilBilgunde/End-to-End-Book-Recommender-system.git
     cd End-to-End-Book-Recommender-system
+
 
 2. Create and activate virtual environment
     python3.7 -m venv venv
@@ -81,10 +84,10 @@ c:\Users\Dell\OneDrive\Pictures\Demo2.png
 
 4. Run the Streamlit app
     streamlit run app.py
+```
 
-
-
-##🐳 Running with Docker
+```bash
+🐳 Running with Docker
 
 1. Build Docker image
     docker build -t book-recommender:latest .
@@ -92,8 +95,8 @@ c:\Users\Dell\OneDrive\Pictures\Demo2.png
 2. Run the container
     docker run -p 8503:8503 book-recommender:latest
 
+```
 
-
-##🤝 Author
-##Sunil Bilgunde
+## 🤝 Author
+## Sunil Bilgunde
 
