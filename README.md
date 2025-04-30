@@ -1,8 +1,12 @@
-# Book-Recommender-system
+# 📚 End-to-End Book Recommender System
+# This is a full-stack machine learning project that recommends books based on a selected title using collaborative filtering and a content-based approach.
+
 
 ![alt text](image.png)
 
 ![alt text](Demo1.png)
+
+
 
 ## Workflow
 
