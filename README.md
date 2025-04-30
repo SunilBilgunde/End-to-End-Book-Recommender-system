@@ -36,14 +36,14 @@ End-to-End-Book-Recommender-System/
 
 ## 🧰 Technologies Used:
 
-Python 3.7
-Pandas
-NumPy 
-Scikit-learn
-Streamlit for web interface
-Docker for containerization
-AWS EC2 for deployment
-Pickle for model serialization
+    Python 3.7,
+    Pandas,
+    NumPy, 
+    Scikit-learn
+    Streamlit for web interface
+    Docker for containerization
+    AWS EC2 for deployment
+    Pickle for model serialization
 
 
 ## 🧪 How It Works:
