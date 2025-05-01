@@ -39,10 +39,10 @@ End-to-End-Book-Recommender-System/
     Python 3.7,
     Pandas,
     NumPy, 
-    Scikit-learn
-    Streamlit for web interface
-    Docker for containerization
-    AWS EC2 for deployment
+    Scikit-learn,
+    Streamlit for web interface,
+    Docker for containerization,
+    AWS EC2 for deployment,
     Pickle for model serialization
 
 
@@ -66,8 +66,7 @@ End-to-End-Book-Recommender-System/
 ## 📸 UI Snapshot
 The app features a dropdown to choose a book and displays five recommended titles along with relevant metadata.
 
-![alt text](Demo1-1.png)
-
+![alt text](Demo1.png)
 ![alt text](Demo2.png)
 
 ## ⚙️ Running Locally
